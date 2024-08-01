@@ -1,0 +1,18 @@
+# Ignore the .env file
+.env
+
+# Ignore the .vscode folder
+.vscode/
+
+# Ignore Python cache files
+image_generation/**/__pycache__/
+image_app/**/__pycache__/
+
+# Ignore migration files in the image_app application
+image_app/migrations/
+
+# Ignore media folder
+media/
+
+# Ignore static folder
+static/
